@@ -1,0 +1,31 @@
+body {
+  background-color: #234;
+}
+.calculator {
+  border: 2px solid #345;
+  padding: 10px;
+}
+.calculator .screen input {
+  width: 95%;
+  margin-bottom: 10px;
+  text-align: right;
+}
+.calculator .keypad-digits button {
+  width: 30%;
+  height: 50px;
+  margin-bottom: 5px;
+  background-color: rgb(125, 125, 125);
+}
+.calculator .keypad-digits button:nth-child(10) {
+  width: 61.7%;
+}
+.calculator .keypad-ops button {
+  width: 29.5%;
+  height: 50px;
+  margin-bottom: 5px;
+}
+.calculator .keypad-ops button:nth-child(3) {
+  height: 105px;
+  float: right;
+  margin-right: 7.5%;
+}

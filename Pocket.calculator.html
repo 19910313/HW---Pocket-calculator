@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Pocket Calculator</title>
+    <link rel="stylesheet" href="app.css" />
+  </head>
+  <body>
+    <div class="calculator">
+      <div class="screen">
+        <input type="text" placeholder="0" />
+      </div>
+      <div class="keypad-digits">
+        <button onclick="onDigit(7)">7</button>
+        <button onclick="onDigit(8)">8</button>
+        <button onclick="onDigit(9)">9</button>
+        <button onclick="onDigit(4)">4</button>
+        <button onclick="onDigit(5)">5</button>
+        <button onclick="onDigit(6)">6</button>
+        <button onclick="onDigit(1)">1</button>
+        <button onclick="onDigit(2)">2</button>
+        <button onclick="onDigit(3)">3</button>
+        <button onclick="onDigit(0)">0</button>
+        <button onclick="onDot()">.</button>
+      </div>
+      <div class="keypad-ops">
+        <button onclick="onOp(`*`)">*</button>
+        <button onclick="onOp(`/`)">/</button>
+        <button onclick="onOp(`=`)">=</button>
+        <button onclick="onOp(`+`)">+</button>
+        <button onclick="onOp(`-`)">-</button>
+        <button>Del</button>
+        <button id="clean" onclick="onClean(`C`)">C</button>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
